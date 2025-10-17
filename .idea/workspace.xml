@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="82403a38-9544-403c-b834-a24b0082fdd1" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="com.intellij.jpb.JpaRepository" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="32HCoq1e8LH0bh8FVmy4oMthibC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HospitalManagementApplication.executor": "Run",
+    "JUnit.HospitalManagementApplicationTests.executor": "Debug",
+    "JUnit.InsuranceTests.testInsurance.executor": "Run",
+    "JUnit.PatientTests.executor": "Run",
+    "JUnit.PatientTests.testPatientRepository.executor": "Run",
+    "JUnit.PatientTests.testTransactionMethods.executor": "Run",
+    "Maven.HospitalManagement [clean,install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/12090/IdeaProjects/SpringBoot/HospitalManagement",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.HospitalManagementApplication">
+    <configuration name="HospitalManagementApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.Hospital.HospitalManagement.HospitalManagementApplication" />
+      <module name="HospitalManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Hospital.HospitalManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HospitalManagementApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HospitalManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.Hospital.HospitalManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.Hospital.HospitalManagement" />
+      <option name="MAIN_CLASS_NAME" value="com.Hospital.HospitalManagement.HospitalManagementApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HospitalManagementApplication" />
+        <item itemvalue="JUnit.HospitalManagementApplicationTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82403a38-9544-403c-b834-a24b0082fdd1" name="Changes" comment="" />
+      <created>1757068288632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757068288632</updated>
+    </task>
+    <servers />
+  </component>
+</project>
