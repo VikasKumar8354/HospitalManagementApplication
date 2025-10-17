@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82403a38-9544-403c-b834-a24b0082fdd1" name="Changes" comment="" />
+    <list default="true" id="82403a38-9544-403c-b834-a24b0082fdd1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/HospitalManagement.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Controller/AppointmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Controller/DoctorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Controller/InsuranceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Controller/PatientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Entity/Appointment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Entity/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Entity/Doctor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Entity/Insurance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Entity/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Entity/type/BloodGroupType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/HospitalManagementApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/JwtUtility/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Repository/AppointmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Repository/DepartmentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Repository/DoctorRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Repository/InsuranceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Repository/PatientRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Service/AppointmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Service/DoctorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Service/InsuranceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Service/PatientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/dto/BloodGroupCountResponseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HospitalManagement/src/test/java/com/Hospital/HospitalManagement/HospitalManagementApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +61,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -39,6 +84,8 @@
     "Maven.HospitalManagement [clean,install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/12090/IdeaProjects/SpringBoot/HospitalManagement",
     "settings.editor.selected.configurable": "preferences.pluginManager"
