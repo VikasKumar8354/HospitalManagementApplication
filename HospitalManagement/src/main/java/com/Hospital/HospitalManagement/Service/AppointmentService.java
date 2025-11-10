@@ -2,13 +2,14 @@ package com.Hospital.HospitalManagement.Service;
 
 import com.Hospital.HospitalManagement.Entity.Appointment;
 import com.Hospital.HospitalManagement.Repository.AppointmentRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
 public class AppointmentService {
 
-
+    @Autowired
     private final AppointmentRepository appointmentRepository;
 
     public AppointmentService(AppointmentRepository appointmentRepository) {

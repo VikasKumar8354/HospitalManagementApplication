@@ -3,6 +3,7 @@ package com.Hospital.HospitalManagement.Service;
 import com.Hospital.HospitalManagement.Entity.Department;
 import com.Hospital.HospitalManagement.Entity.Doctor;
 import com.Hospital.HospitalManagement.Repository.DepartmentRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Set;
@@ -10,6 +11,7 @@ import java.util.Set;
 @Service
 public class DepartmentService {
 
+    @Autowired
     private final DepartmentRepository departmentRepository;
 
     public DepartmentService(DepartmentRepository departmentRepository) {

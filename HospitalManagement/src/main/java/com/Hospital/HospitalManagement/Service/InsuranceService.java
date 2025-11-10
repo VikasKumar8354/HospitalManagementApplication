@@ -2,13 +2,14 @@ package com.Hospital.HospitalManagement.Service;
 
 import com.Hospital.HospitalManagement.Entity.Insurance;
 import com.Hospital.HospitalManagement.Repository.InsuranceRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
 public class InsuranceService {
 
-
+    @Autowired
     private final InsuranceRepository insuranceRepository;
 
     public InsuranceService(InsuranceRepository insuranceRepository) {

@@ -2,6 +2,7 @@ package com.Hospital.HospitalManagement.Controller;
 
 import com.Hospital.HospitalManagement.Entity.Insurance;
 import com.Hospital.HospitalManagement.Service.InsuranceService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
 @RequestMapping("/api/insurance")
 public class InsuranceController {
 
+    @Autowired
     private final InsuranceService insuranceService;
 
     public InsuranceController(InsuranceService insuranceService) {

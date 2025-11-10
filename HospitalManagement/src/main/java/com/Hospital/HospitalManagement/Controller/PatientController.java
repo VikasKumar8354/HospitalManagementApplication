@@ -2,6 +2,7 @@ package com.Hospital.HospitalManagement.Controller;
 
 import com.Hospital.HospitalManagement.Entity.Patient;
 import com.Hospital.HospitalManagement.Service.PatientService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
@@ -10,6 +11,7 @@ import java.util.List;
 @RequestMapping("/api/patients")
 public class PatientController {
 
+    @Autowired
     private final PatientService patientService;
 
     public PatientController(PatientService patientService) {
