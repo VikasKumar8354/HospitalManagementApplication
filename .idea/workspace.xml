@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="82403a38-9544-403c-b834-a24b0082fdd1" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Service/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/HospitalManagement/src/main/java/com/Hospital/HospitalManagement/Service/PatientService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,18 +25,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "VikasKumar8354"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;VikasKumar8354&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/VikasKumar8354/HospitalManagementApplication.git",
-    "accountId": "807c9c21-c1e2-44ab-b15a-815c872fcb0f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/VikasKumar8354/HospitalManagementApplication.git&quot;,
+    &quot;accountId&quot;: &quot;807c9c21-c1e2-44ab-b15a-815c872fcb0f&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -46,25 +45,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HospitalManagementApplication.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.HospitalManagementApplicationTests.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.InsuranceTests.testInsurance.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PatientTests.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PatientTests.testPatientRepository.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.PatientTests.testTransactionMethods.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.HospitalManagement [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/12090/IdeaProjects/HospitalManagement&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HospitalManagementApplication.executor": "Run",
+    "JUnit.HospitalManagementApplicationTests.executor": "Run",
+    "JUnit.InsuranceTests.testInsurance.executor": "Run",
+    "JUnit.PatientTests.executor": "Run",
+    "JUnit.PatientTests.testPatientRepository.executor": "Run",
+    "JUnit.PatientTests.testTransactionMethods.executor": "Run",
+    "Maven.HospitalManagement [clean,install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/12090/IdeaProjects/HospitalManagement",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean install" />
