@@ -20,6 +20,7 @@ public class DepartmentController {
     }
 
     // Create department
+
     @PostMapping
     public ResponseEntity<Department> createDepartment(@RequestBody Department department) {
         Department createdDept = departmentService.createDepartment(department);
