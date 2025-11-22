@@ -52,6 +52,7 @@ public class DepartmentController {
     }
 
     // Get all departments
+
     @GetMapping
     public ResponseEntity<List<Department>> getAllDepartments() {
         List<Department> departments = departmentService.getAllDepartments();
