@@ -44,6 +44,7 @@ public class DepartmentController {
     }
 
     // Get department by name
+
     @GetMapping("/name/{name}")
     public ResponseEntity<Department> getDepartmentByName(@PathVariable String name) {
         Department department = departmentService.getDepartmentByName(name);
