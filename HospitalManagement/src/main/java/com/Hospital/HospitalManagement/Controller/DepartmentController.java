@@ -20,7 +20,6 @@ public class DepartmentController {
     }
 
     // Create department
-
     @PostMapping
     public ResponseEntity<Department> createDepartment(@RequestBody Department department) {
         Department createdDept = departmentService.createDepartment(department);
@@ -28,7 +27,6 @@ public class DepartmentController {
     }
 
     // Update department
-
     @PutMapping("/{id}")
     public ResponseEntity<Department> updateDepartment(@PathVariable Long id,
                                                        @RequestBody Department department) {
@@ -44,7 +42,6 @@ public class DepartmentController {
     }
 
     // Get department by name
-
     @GetMapping("/name/{name}")
     public ResponseEntity<Department> getDepartmentByName(@PathVariable String name) {
         Department department = departmentService.getDepartmentByName(name);
@@ -52,7 +49,6 @@ public class DepartmentController {
     }
 
     // Get all departments
-
     @GetMapping
     public ResponseEntity<List<Department>> getAllDepartments() {
         List<Department> departments = departmentService.getAllDepartments();
