@@ -27,6 +27,7 @@ public class DepartmentController {
     }
 
     // Update department
+
     @PutMapping("/{id}")
     public ResponseEntity<Department> updateDepartment(@PathVariable Long id,
                                                        @RequestBody Department department) {
