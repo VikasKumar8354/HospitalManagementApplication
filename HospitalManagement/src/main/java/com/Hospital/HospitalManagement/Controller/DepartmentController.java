@@ -36,6 +36,7 @@ public class DepartmentController {
     }
 
     // Get department by ID
+
     @GetMapping("/{id}")
     public ResponseEntity<Department> getDepartmentById(@PathVariable Long id) {
         Department department = departmentService.getDepartmentById(id);
